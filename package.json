@@ -1,0 +1,21 @@
+{
+  "name": "remote-docsify",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "docsify:serve": "docsify serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaddyWarbucks/remote-docsify.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaddyWarbucks/remote-docsify/issues"
+  },
+  "homepage": "https://github.com/DaddyWarbucks/remote-docsify#readme",
+  "dependencies": {
+    "docsify-cli": "^4.4.4"
+  }
+}
