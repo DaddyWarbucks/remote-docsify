@@ -1,0 +1,138 @@
+.sun:after {
+  font-size:24px;
+  color: yellow;
+  content: "\263c";
+  padding-left: 5px;
+  margin-right: 15px;
+}
+
+.moon:after {
+  font-size:24px;
+  color: black;
+  content: "\263d";
+  padding-left: 5px;
+  margin-right: 15px;
+}
+
+body .dropdown-content {
+  background: rgb(255, 255, 255) !important;
+  color: rgb(13, 22, 28);
+}
+body .dropbtn {
+  background: rgb(255, 255, 255) !important;
+  color: rgb(13, 22, 28);
+}
+body.dark, body.dark #app, body.dark #ref, body.dark .navbar, body.dark .sidebar, body.dark .links, body.dark a.sectionlink, body.dark .dropdown, body.dark .dropdown-content, body.dark .dropbtn {
+  background: rgb(13, 22, 28) !important;
+  color: rgb(255, 255, 255);
+}
+body.dark .dropdown-content a {
+  color: white;
+}
+
+body.dark .dropdown-content a:hover {
+  color: fuchsia;
+  text-decoration: none;
+}
+
+body.dark .navbar{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+}
+
+body.dark .home-link img {
+  filter: invert(1) brightness(2);
+}
+
+body.dark img {
+  filter: invert(1) brightness(2);
+}
+
+body.dark div[class*=language-] {
+  background-color: rgb(44, 62, 80);
+}
+
+body.dark .content code {
+  background-color: rgb(44, 62, 80);
+  color: rgb(193, 193, 193);
+}
+
+body.dark .language-text code {
+  color: rgb(177, 177, 177) !important;
+}
+
+body.dark a.sidebar-link {
+  color: rgb(220, 220, 220);
+}
+
+body.dark #ref a.sectionlink {
+  color: white;
+}
+
+body.dark main button.sidebar-toggle {
+  background-color: rgb(13, 22, 28) !important;
+}
+
+body.dark .sidebar ul li a {
+  color: white
+}
+
+body.dark .sidebar ul li a:hover {
+  color: fuchsia;
+  text-decoration: none;
+}
+
+/* body.dark h1, body.dark h2 a.anchor, body.dark h3, body.dark h4,
+body.dark h5, body.dark h6, body.dark h7, body.dark h8*/
+body.dark a.anchor span {
+  color: white
+}
+
+body.dark code {
+  color: rgb(220, 220, 220) !important;
+}
+
+body.dark a.navlink {
+  color: white !important
+}
+
+body.dark a.nav-link.router-link-active {
+  color: rgb(233, 21, 181);
+}
+
+body.dark .search-box input {
+  filter: invert(1);
+}
+
+body.dark ul.nav-dropdown {
+  background: rgb(13, 22, 28) !important;
+}
+
+body.dark tr:nth-child(2n) {
+  background: rgba(0, 0, 0, 0);
+}
+
+body.dark blockquote {
+  background: rgb(44, 62, 80);
+}
+
+body.dark blockquote, body.dark blockquote p {
+  color: rgb(255, 255, 255);
+}
+
+body.dark blockquote a code, body.dark blockquote p code {
+  background: #1c3042 !important;
+}
+
+body.dark a.sidebar-link:hover{
+  color: #d513a5 !important;
+}
+
+body.dark a {
+  text-decoration: none;
+}
+body.dark .content a:hover {
+  text-decoration: underline;
+}
+body.dark .markdown-section a.anchor {
+  color: white
+}
