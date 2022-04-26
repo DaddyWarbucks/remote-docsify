@@ -47,4 +47,32 @@ and high-lights of important stuff
 
 > __Important:__ This is very important - just in case _you_ did not realise it!
 
-and a convenient way of accessing the great FeathersJS documentation and much more.
+Tabs are also a possibility
+<!-- tabs:start -->
+#### **NodeJS**
+
+```js
+Here is some Node JS code
+```
+
+#### **React**
+
+```js
+Here is some React code
+```
+
+#### **Vue**
+
+```js
+Here is some Vue code
+```
+
+#### **Making tabs**
+
+How to make a tabbed element like this can be found at [docsify-tabs](https://jhildenbiddle.github.io/docsify-tabs/#/?id=usage)
+
+<!-- tabs:end -->
+
+If you want to display an emoji you simply write `\:100\:` to get :100:, `\:smiley\:` to get :smiley: etc.
+
+Last but not least, we have included a convenient way of accessing the great FeathersJS documentation and much more.

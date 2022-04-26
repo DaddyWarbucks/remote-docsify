@@ -155,6 +155,10 @@ body.dark blockquote p, body.dark blockquote p em {
   color: #7f8c8d
 }
 
-body.dark  em {
+body.dark em {
   color: #cccccc
+}
+
+body.dark .docsify-tabs .docsify-tabs__tab {
+  background-color: black;
 }
