@@ -136,3 +136,25 @@ body.dark .content a:hover {
 body.dark .markdown-section a.anchor {
   color: white
 }
+
+body.dark .markdown-section code, body.dark .markdown-section pre {
+  background-color: #2C3E50;
+}
+
+body.dark .markdown-section h1, body.dark .markdown-section h2, .body.dark markdown-section h3, body.dark .markdown-section h4,
+body.dark .markdown-section strong {
+  color: #dddddd;
+  font-weight: 600;
+}
+
+body.dark .token.punctuation {
+  color: #aaaaaa;
+}
+
+body.dark blockquote p, body.dark blockquote p em {
+  color: #7f8c8d
+}
+
+body.dark  em {
+  color: #cccccc
+}
