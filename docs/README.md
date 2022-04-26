@@ -16,12 +16,15 @@ For example
 ?basePath=https://raw.githubusercontent.com/feathersjs-ecosystem/feathers-mongodb/master
 ```
 
+You can see the result of setting this `basePath` [here](https://daddywarbucks.github.io/remote-docsify/?basePath=https://raw.githubusercontent.com/feathersjs-ecosystem/feathers-mongodb/master
+) and you can see the original `README.md` [here](https://raw.githubusercontent.com/feathersjs-ecosystem/feathers-mongodb/master/README.md) and the GitHub version [here](https://github.com/feathersjs-ecosystem/feathers-mongodb).
+
 Due to the fact that some GitHub repositories' `master` branch is sometimes called `main` (or even something else) you must substitute the `master` part of the value with the proper one for your repository.
 
 <div style="margin-top:100px; width:100%; border-top:1px solid grey">
 
 ### About this utility
-This utility support display of your `README.md` in the Git repository you specify using the ` basePath` search parameter. The `README.md` can contain any of the normal markdown commands:
+This utility support display of your `README.md` in the Git repository you specify using the `basePath` search parameter. The `README.md` can contain any of the normal markdown commands:
 
 1. This is a numbered list
    - with a sub list _you see?_
