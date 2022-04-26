@@ -16,12 +16,20 @@ For example
 ?basePath=https://raw.githubusercontent.com/feathersjs-ecosystem/feathers-mongodb/master
 ```
 
-Due to the fact that some GitHub repositories' `master` branch is sometimes called `main` (or even something else) you must substitute the `master` part of the value with the porper one for your repository.
+Due to the fact that some GitHub repositories' `master` branch is sometimes called `main` (or even something else) you must substitute the `master` part of the value with the proper one for your repository.
 
 <div style="margin-top:100px; width:100%; border-top:1px solid grey">
 
 ### About this utility
-This utility support display of your `README.md` in the Git repository you specify using the ` basePath` search parameter. The `README.md` can contain any of the normal markdown commands. Furthermore, it supports nice things like code snippets with copy to the clipboard
+This utility support display of your `README.md` in the Git repository you specify using the ` basePath` search parameter. The `README.md` can contain any of the normal markdown commands:
+
+1. This is a numbered list
+   - with a sub list _you see?_
+   - with 2 lines __you see?__
+1. And an other line
+
+
+ Furthermore, it supports nice things like code snippets with copy to the clipboard
 
 ```js
   init() {
@@ -34,6 +42,6 @@ This utility support display of your `README.md` in the Git repository you speci
 
 and high-lights of important stuff
 
-> __Important:__ This is very important - just in case you did not realise it!
+> __Important:__ This is very important - just in case _you_ did not realise it!
 
 and a convenient way of accessing the great FeathersJS documentation and much more.
