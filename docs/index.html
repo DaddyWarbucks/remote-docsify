@@ -38,7 +38,15 @@
     window.$docsify = {
       themeColor: '#d513a5',
       name: 'Feathers Docs',
-      description: 'A library for the Feathers framework'
+      description: 'A library for the Feathers framework',
+      // ...
+      tabs: {
+        persist    : true,      // default
+        sync       : true,      // default
+        theme      : 'classic', // default
+        tabComments: true,      // default
+        tabHeadings: true       // default
+      }
     }
     const params = new URLSearchParams(window.location.search);
     params.forEach((value, key) => {
@@ -48,6 +56,8 @@
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://unpkg.com/docsify-copy-code@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <script src="./assets/dark-mode.js"></script>
   <script>
     window.darkMode = new DarkMode();
