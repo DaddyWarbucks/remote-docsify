@@ -3,28 +3,28 @@
 class DarkMode {
 
   constructor(dark = false) {
-    this._dark = dark;
+    this._light = !dark;
     this._key = 'dark-mode-feathers'
   }
 
   init() {
-    this._dark = (/true/i).test(window.localStorage.getItem(this._key));
-    if (this._dark) this.toggle(false);
+    this._light = (/true/i).test(window.localStorage.getItem(this._key));
+    if (this._light) this.toggle(false);
 
-    return this._dark;
+    return this._light;
   }
 
-  toggle(dark = this._dark) {
-    if (dark) {
-      document.body.classList.remove('dark');
-      this._remove();
-    } else {
+toggle(light = this._light) {
+    if (!light) {
       document.body.classList.add('dark');
       this._save();
+    } else {
+      document.body.classList.remove('dark');
+      this._remove();
     }
-    this._dark = !dark;
+    this._light = !light;
 
-    return this._dark;
+    return this._light;
   }
 
   _save() {
