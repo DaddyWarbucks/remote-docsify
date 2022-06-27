@@ -15,12 +15,12 @@ class DarkMode {
   }
 
 toggle(light = this._light) {
-    if (!light) {
-      document.body.classList.add('dark');
-      this._save();
-    } else {
+    if (light) {
       document.body.classList.remove('dark');
       this._remove();
+    } else {
+      document.body.classList.add('dark');
+      this._save();
     }
     this._light = !light;
 

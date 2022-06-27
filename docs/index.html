@@ -55,7 +55,7 @@
       </div>
     </div>
     <label class="switch" style="margin-right:15px">
-      <input type="checkbox" id="DM" class="sectionlink" onclick="window.darkMode.toggle();DM_toggleClass()">
+      <input type="checkbox" id="DM" class="sectionlink" onclick="window.darkMode.toggle()">
       <span class="slider round slider-icon">
       </span>
     </label>
@@ -88,20 +88,7 @@
   <script src="./assets/dark-mode.js"></script>
   <script>
     window.darkMode = new DarkMode();
-
-    function DM_toggleClass() {
-      let dark = window.darkMode.init();
-      if (dark) {
-        document.getElementById("DM").classList.remove('moon');
-        document.getElementById("DM").classList.add('sun');
-      }
-      else {
-        document.getElementById("DM").classList.remove('sun');
-        document.getElementById("DM").classList.add('moon');
-      }
-    }
-
-    DM_toggleClass();
+    window.darkMode.init();
   </script>
 </body>
 
