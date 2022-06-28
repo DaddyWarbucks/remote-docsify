@@ -160,5 +160,9 @@ body.dark em {
 }
 
 body.dark .docsify-tabs .docsify-tabs__tab {
-  background-color: black;
+  background-color: rgb(206, 206, 206);
+}
+
+body.dark .docsify-tabs .docsify-tabs__tab--active {
+  background-color: rgb(13, 22, 28);
 }

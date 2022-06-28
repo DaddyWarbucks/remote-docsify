@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Feathers Docs</title>
@@ -10,28 +11,54 @@
   <link rel="stylesheet" href="./assets/feathers-header.css">
   <link rel="stylesheet" href="./assets/dark-mode.css">
 </head>
+
 <body>
   <div id="ref">
-    <img style="height:35px;float:left;padding-left:15px" src="http://feathersjs.com/img/feathers-logo-wide.png" alt="Feathers logo">
+    <img style="height:30px;float:left;padding-left:15px;" src="http://feathersjs.com/img/feathers-logo-wide.png"
+      alt="Feathers logo">
     <a class="sectionlink" href="https://docs.feathersjs.com/guides/">Guides</a>
     <a class="sectionlink" href="https://docs.feathersjs.com/api/">API</a>
-    <a class="sectionlink" href="https://docs.feathersjs.com/cookbook/">Cookbook</a>
     <a class="sectionlink" href="https://docs.feathersjs.com/help/">Help</a>
+    <div class="dropdown">
+      <button class="dropbtn">Versions</button>
+      <div class="dropdown-content">
+        <a href="https://docs.feathersjs.com/" target="_blank" rel="noopener noreferrer"
+          class="nav-link external">Feathersjs (v4 Crow, current)</a>
+        <a href="https://dove.feathersjs.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">Dove
+          (v5, next)</a>
+        <a href="https://buzzard.docs.feathersjs.com/" target="_blank" rel="noopener noreferrer"
+          class="nav-link external">Buzzard (v3)</a>
+        <a href="https://auk.docs.feathersjs.com/" target="_blank" rel="noopener noreferrer"
+          class="nav-link external">Auk (v2)</a>
+      </div>
+    </div>
     <div class="dropdown">
       <button class="dropbtn">Ecosystem</button>
       <div class="dropdown-content">
-          <a href="https://docs.feathersjs.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">Feathersjs (v4 Crow, current)</a>
-          <a href="https://github.com/feathersjs/awesome-feathersjs" target="_blank" rel="noopener noreferrer" class="nav-link external">Awesome Feathersjs</a>
-          <a href="https://www.youtube.com/playlist?list=PLwSdIiqnDlf_lb5y1liQK2OW5daXYgKOe" target="_blank" rel="noopener noreferrer" class="nav-link external">YouTube Playlist</a>
-          <a href="https://vuex.feathersjs.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">Feathers VueX</a>
-          <a href="https://hooks-common.feathersjs.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">Common Hooks</a>
-          <div class="dropdown-divider">Other versions</div>
-          <a href="https://dove.docs.feathersjs.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">Dove (v5, next)</a>
-          <a href="https://buzzard.docs.feathersjs.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">Buzzard (v3)</a>
-          <a href="https://auk.docs.feathersjs.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">Auk (v2)</a>
+        <a href="https://blog.feathersjs.com" target="_blank" rel="noopener noreferrer"
+          class="nav-link external">Blog</a>
+        <a href="https://docs.feathersjs.com/cookbook/" target="_blank" rel="noopener noreferrer">Cookbook (v4,
+          current)</a>
+        <a href="https://dove.feathersjs.com/cookbook/" target="_blank" rel="noopener noreferrer"
+          class="nav-link external" class="nav-link external">Cookbook (v5, next)</a>
+        <a href="https://github.com/feathersjs/awesome-feathersjs" target="_blank" rel="noopener noreferrer"
+          class="nav-link external">Awesome Feathersjs</a>
+        <a href="https://www.youtube.com/playlist?list=PLwSdIiqnDlf_lb5y1liQK2OW5daXYgKOe" target="_blank"
+          rel="noopener noreferrer" class="nav-link external">YouTube Playlist</a>
+        <a href="https://vuex.feathersjs.com/" target="_blank" rel="noopener noreferrer"
+          class="nav-link external">Feathers Pinia - Vue</a>
+        <a href="https://feathers-pinia.pages.dev/" target="_blank" class="nav-link external">Feathers Pinia - Vue</a>
+        <a href="https://humaans.github.io/figbird/" target="_blank" rel="noopener noreferrer"
+          class="nav-link external">Figbird - React</a>
+        <a href="https://hooks-common.feathersjs.com/" target="_blank" rel="noopener noreferrer"
+          class="nav-link external">Common Hooks</a>
       </div>
     </div>
-    <a id="DM" class="sectionlink moon" onclick="window.darkMode.toggle();DM_toggleClass()"></a>
+    <label class="switch" style="margin-right:15px">
+      <input type="checkbox" id="DM" class="sectionlink" onclick="window.darkMode.toggle();DM_toggleClass()">
+      <span class="slider round slider-icon">
+      </span>
+    </label>
   </div>
   <div id="app"></div>
   <script>
@@ -41,9 +68,9 @@
       description: 'A library for the Feathers framework',
       // ...
       tabs: {
-        persist    : true,      // default
-        sync       : true,      // default
-        theme      : 'classic', // default
+        persist: true,      // default
+        sync: true,      // default
+        theme: 'classic', // default
         tabComments: true,      // default
         tabHeadings: true       // default
       }
@@ -77,4 +104,5 @@
     DM_toggleClass();
   </script>
 </body>
+
 </html>
