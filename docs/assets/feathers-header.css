@@ -1,12 +1,16 @@
 div#ref {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
   font-size: 14px;
   font-weight: lighter;
-  margin: 5pt auto;
-  padding-top:5px;
+  padding:15px 15px 15px 15px;
   text-align: right;
   border-bottom: 1px solid lightgrey;
-  height: 40px;
+  height: 55px;
+  opacity: .99;
   vertical-align: middle;
+  backdrop-filter: blur(20px);
 }
 
 div#ref a.sectionlink {
@@ -16,30 +20,28 @@ div#ref a.sectionlink {
   vertical-align: middle;
 }
 @media (min-width: 719px) {
-.dropdown-wrapper {
-  height: 1.8rem;
-}
-}
-.dropbtn {
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
   font-family: Raleway, Helvetica Neue, Helvetica, Arial, Lucida Grande,sans-serif;
   font-size: 14px;
-  font-weight: lighter;
-/*  color: #2c3e50;*/
-/*  background-color: white;*/
   border: none;
-  margin-right: 5px
+  margin-right: 5px;
 }
+
+button.dropbtn {
+  background-color: white;
+}
+
 .dropbtn:after {
   font-size:10px;
   color: #ccc;
   content: "\25bc";
   padding-left: 5px;
   margin-right: 5px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
 }
 
 .dropdown-content {
@@ -81,22 +83,6 @@ a.external:after {
   padding-left: 5px
 }
 
-.sun:after {
-  font-size:24px;
-  color: yellow;
-  content: "\263c";
-  padding-left: 5px;
-  margin-right: 15px;
-}
-
-.moon:after {
-  font-size:24px;
-  color: black;
-  content: "\263d";
-  padding-left: 5px;
-  margin-right: 15px;
-}
-
 a.sectionlink:link {
   text-decoration: none;
 }
@@ -128,7 +114,7 @@ body a {
   text-decoration: none;
 }
 aside.sidebar {
-  top: 48px;
+  top: 54px;
 }
 
 
