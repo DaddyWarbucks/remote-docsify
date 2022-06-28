@@ -205,3 +205,5 @@ input:checked + .slider-icon:before {
   -webkit-transition: .4s;
   transition: .4s;
 }
+
+}
