@@ -40,13 +40,11 @@
         <a href="https://docs.feathersjs.com/cookbook/" target="_blank" rel="noopener noreferrer">Cookbook (v4,
           current)</a>
         <a href="https://dove.feathersjs.com/cookbook/" target="_blank" rel="noopener noreferrer"
-          class="nav-link external" class="nav-link external">Cookbook (v5, next)</a>
+          class="nav-link external">Cookbook (v5, next)</a>
         <a href="https://github.com/feathersjs/awesome-feathersjs" target="_blank" rel="noopener noreferrer"
           class="nav-link external">Awesome Feathersjs</a>
         <a href="https://www.youtube.com/playlist?list=PLwSdIiqnDlf_lb5y1liQK2OW5daXYgKOe" target="_blank"
           rel="noopener noreferrer" class="nav-link external">YouTube Playlist</a>
-        <a href="https://vuex.feathersjs.com/" target="_blank" rel="noopener noreferrer"
-          class="nav-link external">Feathers Pinia - Vue</a>
         <a href="https://feathers-pinia.pages.dev/" target="_blank" class="nav-link external">Feathers Pinia - Vue</a>
         <a href="https://humaans.github.io/figbird/" target="_blank" rel="noopener noreferrer"
           class="nav-link external">Figbird - React</a>
@@ -55,7 +53,7 @@
       </div>
     </div>
     <label class="switch" style="margin-right:15px">
-      <input type="checkbox" id="DM" class="sectionlink" onclick="window.darkMode.toggle();DM_toggleClass()">
+      <input type="checkbox" id="DM" class="sectionlink" onclick="window.darkMode.toggle()">
       <span class="slider round slider-icon">
       </span>
     </label>
@@ -88,20 +86,7 @@
   <script src="./assets/dark-mode.js"></script>
   <script>
     window.darkMode = new DarkMode();
-
-    function DM_toggleClass() {
-      let dark = window.darkMode.init();
-      if (dark) {
-        document.getElementById("DM").classList.remove('moon');
-        document.getElementById("DM").classList.add('sun');
-      }
-      else {
-        document.getElementById("DM").classList.remove('sun');
-        document.getElementById("DM").classList.add('moon');
-      }
-    }
-
-    DM_toggleClass();
+    window.darkMode.init();
   </script>
 </body>
 
