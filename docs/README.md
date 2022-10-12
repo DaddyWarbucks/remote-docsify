@@ -74,6 +74,38 @@ and high-lights of important stuff
 
 by starting the line with a `> `.
 
+## Tables
+
+If you need to make a table you simply enter
+
+<pre>
+
+| Name | Comment
+| --- | ---
+| David Lüecke   | The father of Feathers
+| Marchall Swain  | The holy spirit of Feathers
+| Beau Shaw  | Angle of invention
+
+</pre>
+
+to get
+
+| Name | Handle
+| --- | ---
+| David Lüecke   | @daffl
+| Marshall Swain  | @Marshall
+| Beau Shaw  | @DaddyWarbucks
+
+> **NOTE:** If you need to center og right justify a column you use `:-:` or `--:` as column marker instead of `---`.
+
+Here is an example:
+
+| Left justified| Centered | Right justified
+| --- | :--: | --:
+| X | X | X
+| XXX | XXX | XXX
+
+
 ## Tabbed areas
 
 Tabs are also a possibility.
