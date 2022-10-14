@@ -82,10 +82,9 @@ If you need to make a table you simply enter
 
 | Name | Comment
 | --- | ---
-| David Lüecke   | The father of Feathers
-| Marchall Swain  | The holy spirit of Feathers
-| Beau Shaw  | Angle of invention
-
+| David Lüecke   | @daffl
+| Marshall Swain  | @Marshall
+| Beau Shaw  | @DaddyWarbucks
 </pre>
 
 to get
@@ -101,7 +100,7 @@ to get
 Here is an example:
 
 | Left justified| Centered | Right justified
-| --- | :--: | --:
+| --- | :-: | --:
 | X | X | X
 | XXX | XXX | XXX
 
