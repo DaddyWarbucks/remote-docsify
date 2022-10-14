@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="A library for the Feathers framework">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="./assets/feathers-doc-logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./assets/theme.css">
   <link rel="stylesheet" href="./assets/feathers-header.css">
   <link rel="stylesheet" href="./assets/dark-mode.css">
@@ -52,13 +53,13 @@
           class="nav-link external">Common Hooks</a>
       </div>
     </div>
-    <label class="switch" style="margin-right:15px">
-      <input type="checkbox" id="DM" class="sectionlink" onclick="window.darkMode.toggle()">
-      <span class="slider round slider-icon">
-      </span>
+    <label class="switch tooltip" style="margin-right:15px">
+        <span class="tooltiptext">Toggle dark mode</span>
+        <input type="checkbox" id="DM" class="sectionlink" onclick="window.darkMode.toggle()">
+      <span class="slider round slider-icon"></span>
     </label>
   </div>
-  <div id="app"></div>
+  <div id="app">Please wait...</div>
   <script>
     window.$docsify = {
       themeColor: '#d513a5',
@@ -79,10 +80,10 @@
       window.$docsify[key] = value;
     });
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="https://unpkg.com/docsify-copy-code@2"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="https://unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <script src="./assets/dark-mode.js"></script>
   <script>
     window.darkMode = new DarkMode();
